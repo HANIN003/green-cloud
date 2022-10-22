@@ -1,0 +1,100 @@
+/*--Overall Styling */
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body {
+    font-size: 16px;
+    line-height: 1;
+}
+
+aside {
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+button {
+    width: 100%;
+}
+
+.container {
+    width: 100%;
+    padding-top: 20px;
+    clear: both;
+    float: right;
+}
+
+section {
+    overflow: auto;
+    clear: both;
+    width: 100%;
+  }
+
+/*--Daily Forecast */
+p {
+    padding-bottom: 250px;
+    color: grey;
+}
+
+a {
+    font-size: 18px;
+    color: grey;
+    line-height: 35px;
+}
+
+ul {
+    color: grey;
+    font-size: 18px;
+    line-height: 24px;
+    padding-left: 20px;
+}
+
+/*--5-Day Forecast */
+#fiveDay {
+    text-align: left;
+    font-weight: bold;
+    padding-top: 30px;
+    padding-bottom: 15px;
+    font-size: 30px;
+    color: black;
+}
+
+#dailyforcast {
+    width: 100%;
+    padding: 0;
+    margin: 5px 0px 0px 15px;
+}
+
+.card-deck {
+    margin: 0 auto; 
+    float: none; 
+    margin-bottom: 10px;
+    align-content: center;
+}
+
+.fiveDayCard {
+    border: none;
+}
+
+.card-header {
+    font-size: 20px;
+    font-weight: bolder;
+    color: white;
+    text-align: center;
+    padding-bottom: 0px;
+    border: none;
+}
+
+.card-body {
+    text-align: center;
+    padding-bottom: 30px;
+    font-size: 16px;
+    line-height: 30px;
+    color: white;
+    background-color: #007bff;
+    border: none;
+}
